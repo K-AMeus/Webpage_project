@@ -1,0 +1,176 @@
+body{
+    font-family: "Gill Sans", sans-serif;
+    margin: unset;
+
+}
+.wrapper {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333231;
+    height: 70px;
+    border-bottom: 2px solid #ffa244;
+}
+
+.menu {
+    width: 1300px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-items{
+    width: 520px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.menu-items ul{
+    margin-top: 0px;
+}
+
+.menu-items li{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    float: left;
+}
+
+.footer{
+    display: flex;
+    margin-top: 80px;
+    height: 100px;
+    background-color: #333231;
+}
+
+.footer-items{
+    text-align: left;
+    width: 400px;
+}
+
+.footer-items li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer-social{
+    width: 100%;
+    text-align: end;
+    margin-right: 50px;
+    padding: 25px 10px 10px 10px;
+}
+
+.row{
+    margin-top: 60px;
+}
+
+.column-inner{
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.container-left{
+    padding-right: 30px;
+    flex: 1 1 0px;
+}
+.container-right{
+    padding-left: 30px;
+    flex: 1 1 0px;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.footer-social a:visited{
+    color: #333231;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 0;
+    width: 640px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 1rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-buttons{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-buttons a{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-buttons a:hover{
+    opacity: 1;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.vormi-grupp1{
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+}
+
+.kasutaja-andmed{
+    display: flex;
+    gap: 25px;
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+#kontakt-pilt{
+    margin-top: 45px;
+}
+
+h2 a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2 a:hover{
+    text-decoration: none;
+    color: #ffa244
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
