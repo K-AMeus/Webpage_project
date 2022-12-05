@@ -1,5 +1,1 @@
-Veebilehel saab klient üürida ürituste korraldamiseks erinevaid pindasid
-
-Tiimiliikmed: Karl-Andreas Meus, Marko Smirnov, Tristan Mõts
-
-Tiimisisene tööjaotus:
+Veebilehel saab klient sirvida ning üürida ürituste korraldamiseks erinevaid pindasid. Veebilehel on vahelehed "Avaleht", "Broneeri", "Meist" ja "Kontakt"
