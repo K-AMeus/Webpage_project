@@ -268,4 +268,4 @@ html, body { height: 100%; margin: 0; }
   .button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
